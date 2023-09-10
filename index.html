@@ -2,8 +2,17 @@
     <head>
         <title>MY WORK</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script
+src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
     </head>
     <body>
+        <div class="container">
         <section id="APPS">
             <h1>APPS</h1>
             <div class="line"></div>
@@ -11,12 +20,27 @@
             <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/i63iNKWznBedZwsQFFHSEXO4cc0uV8ocLWeWYRhSzMU/embed"></iframe>
         </section>
         <br>
-        <section id="GAMES">
-            <h1>GAMES</h1>
-            <div class="line"></div>
-            <a href="https://studio.code.org/projects/starwarsblocks/FENeHtsg6FgkI_waDrjooL_ISGCiQnXhXs7zlqM22nc" target="_blank"><img src="thumbnail.png"></a>
-            <a href="https://studio.code.org/projects/gamelab/CdpOgHsU-uEgvu_CSM2Q047jV3twFUaA75pC9izAsJg" target="_blank"><img src="thumbnail (1).png"> </a>
-</section>
+<h2>CLICK ON THE GAMES TO PLAY</h2>
+<h5>THESE GAMES ARE BUILT IN GAME LAB ,CLICK ON THE GAME TO PLAY</h5>
+<div id="slide_show" class="carousel slide">
+    <div class="carousel-inner">
+        <div class="item">
+            <center>
+                <a href="https://studio.code.org/projects/starwarsblocks/FENeHtsg6FgkI_waDrjooL_ISGCiQnXhXs7zlqM22nc" target="_blank"><img src="thumbnail.png"></a>
+                <div class="carousel-content">starwars_fight</div>     
+            </center>
+        </div>
+        <div class="item active">
+            <center>
+                <a href="https://studio.code.org/projects/gamelab/CdpOgHsU-uEgvu_CSM2Q047jV3twFUaA75pC9izAsJg" target="_blank"><img src="thumbnail (1).png"> </a>
+                <div class="carousel-content"><p>pacman</p></div>
+            </center>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#slide_show"data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+    <a class="right carousel-control" href="#slide_show"data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+</div>
 <br>
 <section id="CHATBOT">
 <h1>CHATBOT</h1>
@@ -28,5 +52,6 @@
     src="https://console.dialogflow.com/api-client/demo/embedded/97b265bc-eeb3-4ed5-9bed-5eb5b1ed7886">
 </iframe>
 </section>
+</div>
     </body>
 </html>
